@@ -28,5 +28,9 @@ describe Stack do
       subject.push(number2)
       expect(subject.top).to eq(number2)
     end
+
+    it 'raise error if stack is empty' do
+      expect { subject.top }.to raise_error(Stack::EMPTY_STACK_ERROR)
+    end
   end
 end

@@ -1,5 +1,9 @@
+# frozen_string_literal: true
+
 # Stack data structure
 class Stack
+  EMPTY_STACK_ERROR = 'Stack is empty!'
+
   def initialize
     @data = []
   end
@@ -16,6 +20,8 @@ class Stack
 
   # returns the top element of the stack
   def top
+    raise EMPTY_STACK_ERROR if @data.empty?
+
     @data.last
   end
 end
