@@ -14,3 +14,10 @@ Run rspec to test feature and unit tests:
 ```bash
 rspec
 ```
+
+## Linter
+
+Run rubocop
+```bash
+rubocop
+```
