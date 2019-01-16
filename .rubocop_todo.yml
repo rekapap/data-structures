@@ -6,20 +6,17 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 1
 # Configuration parameters: CountComments, ExcludedMethods.
 # ExcludedMethods: refine
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
 
-# Offense count: 1
 # Cop supports --auto-correct.
 Style/BlockComments:
   Exclude:
     - 'spec/spec_helper.rb'
 
-# Offense count: 5
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: when_needed, always, never
@@ -28,10 +25,8 @@ Style/FrozenStringLiteralComment:
     - 'Gemfile'
     - 'spec/**/*'
 
-# Offense count: 2
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
 # URISchemes: http, https
 Metrics/LineLength:
   Exclude:
     - 'spec/**/*'
-
