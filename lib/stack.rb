@@ -14,7 +14,8 @@ class Stack
     @data.push(element)
   end
 
+  # returns the top element of the stack
   def top
-    1
+    @data.last
   end
 end

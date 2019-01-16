@@ -2,6 +2,8 @@ require 'stack'
 
 describe Stack do
   let(:number1) { 1 }
+  let(:number2) { 2 }
+
   describe '#empty?' do
     it 'starts empty' do
       expect(subject.empty?).to eq(true)
@@ -19,6 +21,12 @@ describe Stack do
     it 'returns the top element on the stack' do
       subject.push(number1)
       expect(subject.top).to eq(number1)
+    end
+
+    it 'return the top element of the stack with multiple elements int he stack' do
+      subject.push(number1)
+      subject.push(number2)
+      expect(subject.top).to eq(number2)
     end
   end
 end
