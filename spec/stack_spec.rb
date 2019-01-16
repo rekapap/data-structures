@@ -33,4 +33,12 @@ describe Stack do
       expect { subject.top }.to raise_error(Stack::EMPTY_STACK_ERROR)
     end
   end
+
+  describe '#pop' do
+    it 'removes the top element from the stack' do
+      subject.push(number1)
+      subject.pop
+      expect(subject.empty?).to eq(true)
+    end
+  end
 end

@@ -24,4 +24,9 @@ class Stack
 
     @data.last
   end
+
+  # remove the top element
+  def pop
+    @data.pop
+  end
 end
