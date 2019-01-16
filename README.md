@@ -8,6 +8,13 @@ Exploring different data structure implmentation and use case with Ruby
   - it has a 'empty?' function that reurn true if the stack is empty
 
 
+## Technologies
+
+- Ruby
+- Rspec
+- Rubocop
+
+
 ## Tests
 
 Run rspec to test feature and unit tests:
@@ -21,3 +28,4 @@ Run rubocop
 ```bash
 rubocop
 ```
+
