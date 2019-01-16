@@ -40,5 +40,9 @@ describe Stack do
       subject.pop
       expect(subject.empty?).to eq(true)
     end
+
+    it 'raises en error if stack is empty' do
+      expect { subject.pop }.to raise_error(Stack::EMPTY_STACK_ERROR)
+    end
   end
 end

@@ -27,6 +27,8 @@ class Stack
 
   # remove the top element
   def pop
+    raise EMPTY_STACK_ERROR if @data.empty?
+
     @data.pop
   end
 end
