@@ -14,4 +14,11 @@ describe Stack do
       expect(subject.empty?).to eq(false)
     end
   end
+
+  describe '#top' do
+    it 'returns the top element on the stack' do
+      subject.push(number1)
+      expect(subject.top).to eq(number1)
+    end
+  end
 end

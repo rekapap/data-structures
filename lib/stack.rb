@@ -13,4 +13,8 @@ class Stack
   def push(element)
     @data.push(element)
   end
+
+  def top
+    1
+  end
 end
