@@ -1,5 +1,6 @@
 # Data Structures
-Exploring different data structure implmentation and use case with Ruby
+Exploring different data structure implmentation (using TDD) and use case with Ruby
+
 
 ## Data Structures
 
