@@ -19,6 +19,14 @@ Problems
 problems_lib/min_max.rb
 ```
 
+### Queue
+Properties
+  - You can add and remove from both ends with constant complexity
+  - it has a 'front' function that returns the element on the front
+  - it has a 'back' function that return the back element
+  - it has an 'enqueue' adds an element to the back of the queue
+  - it has a 'dequeue' removes an element from the front of the queue
+  - it has an 'empty?' functiont that checks if a queue iss empty or not
 
 ## Technologies
 
